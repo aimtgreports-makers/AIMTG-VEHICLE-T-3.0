@@ -1,54 +1,69 @@
-# VEHICLE-Dynamics-Lab-VEHICLE-T-3.0
-VEHICLE-T 3.0 — A relational dynamical system with a normalized global tension observable (GTS) for structural analysis and measurable system dynamics.
 
-🚗 VEHICLE Dynamics Lab — VEHICLE-T 3.0
+# 🚗 VEHICLE-T 3.0
 
-This repository contains numerical experiments and structural analysis tools for the VEHICLE framework, a relational dynamical system defined on component-structured graphs.
+**A Relational Dynamical System with a Measurable Global Tension Signal**
 
-VEHICLE-T 3.0 extends this framework by introducing a normalized observable of global tension, transforming the system from a purely dynamical model into a measurable and auditable instrument.
+---
 
-🔷 Overview
+## 🔷 What is this?
 
-The VEHICLE model describes dynamics driven by a global tension functional combining:
+VEHICLE-T 3.0 transforms the VEHICLE framework into a **measurable system**.
 
-inter-node discrepancies
-intra-node coherence constraints
+Instead of only simulating dynamics, it introduces:
 
-The system evolves through local compatibility rules that ensure:
+> **A normalized observable of structural tension (GTS)**
 
-global tension dissipation
-structural convergence
-emergence of coherent configurations
-🔷 VEHICLE-T 3.0 Extension
+This allows:
 
-VEHICLE-T 3.0 introduces a new layer:
+- direct measurement of system tension  
+- comparison across different systems  
+- detection of structural regimes  
 
-A normalized observable called the Global Tension Signal (GTS)
+---
 
-This observable transforms raw tension into a dimensionless, comparable signal over time.
+## 🔷 Core Idea
 
-🔶 Global Tension Signal
-GTS(t)=
-T(X(0))
-T(X(t))
-	​
+\[
+GTS(t) = \frac{T(X(t))}{T(X(0))}
+\]
 
+VEHICLE-T shifts the paradigm from:
+
+> **simulation → measurement**
+
+---
+
+## 🔷 Why it matters
+
+This framework enables the study of:
+
+- complex systems  
+- competitive environments  
+- geopolitical dynamics  
+- structural stability  
+
+under a unified mathematical structure.
+
+---
 
 Where:
 
 T(X) is the global tension functional defined in the VEHICLE framework
 X(t) is the system state at time t
+
 🔶 Interpretation
 GTS(0) = 1 → initial condition
 0 < GTS(t) < 1 → tension dissipation
 GTS(t) → 0 → strong structural relaxation
 GTS(t) ≈ 1 → persistence / plateau
 GTS(t) > 1 → tension amplification
+
 🔶 Key Properties
 Non-negative
 Normalized
 Comparable across experiments
 Monotonic under dissipative dynamics
+
 # 🔷 Architecture of VEHICLE-T 3.0
 
 The framework is organized into three layers:
