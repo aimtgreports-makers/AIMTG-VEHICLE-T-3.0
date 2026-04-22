@@ -49,71 +49,104 @@ Non-negative
 Normalized
 Comparable across experiments
 Monotonic under dissipative dynamics
-🔷 Architecture of VEHICLE-T 3.0
+# 🔷 Architecture of VEHICLE-T 3.0
 
 The framework is organized into three layers:
 
-🔹 Layer I — Core Dynamics
-State evolution
-Global tension functional T(X)
-🔹 Layer II — Observables
-Global Tension Signal (GTS)
-Temporal derivatives and structural indicators
-🔹 Layer III — Multi-Agent Evaluation (future extension)
+### 🔹 Layer I — Core Dynamics
+- State evolution  
+- Global tension functional \(T(X)\)
+
+### 🔹 Layer II — Observables
+- Global Tension Signal (GTS)  
+- Temporal derivatives  
+- Structural indicators  
+
+### 🔹 Layer III — Multi-Agent Evaluation (future extension)
+- Actor Tensor analysis  
+- Structural contribution analysis  
+- Temporal dynamics analysis  
+- Critical audit layer  
 Actor Tensor analysis
 Structural contribution analysis
 Temporal dynamics analysis
 Critical audit layer
-🔷 Experiments
-Experiment 1 — Base Dynamics
+# 🔷 Experiments
 
+## Experiment 1 — Base Dynamics
 Initial validation of global tension dissipation.
 
+```bash
 python experiments/exp1_base_dynamics.py
-Experiment 2 — Coupling Comparison
+
+## Experiment 2 — Coupling Comparison
 
 Comparison between systems with and without internal coupling (λ=0 vs λ>0).
 
 python experiments/exp2_coupling_comparison.py
-Experiment 3 — Lambda Sweep
+
+## Experiment 3 — Lambda Sweep
 
 Systematic analysis of behavior under varying internal coupling strengths.
 
 python experiments/exp3_lambda_sweep.py
-🆕 Experiment 4 — Global Tension Signal (GTS)
+
+## Experiment 4 — Global Tension Signal (GTS)
 
 Introduction of the primary observable of VEHICLE-T 3.0.
 
 This experiment computes:
 
-raw tension T(X(t))
-normalized signal GTS(t)
-temporal variation ΔGTS(t)
-comparison across different coupling regimes
+- raw tension
+T(X(t))
+- normalized signal
+GTS(t)
+- temporal variation
+ΔGTS(t)
+- comparison across different coupling regimes
+
 python experiments/exp4_gts_observable.py
+
 🔷 Repository Structure
 vehicle_dynamics_lab/
 │
 ├── vehicle/
+
 │   ├── __init__.py
+
 │   ├── tension.py
+
 │   ├── observables.py
+
 │   ├── dynamics.py
+
 │   ├── systems.py
+
 │   └── plotting.py
 │
 ├── experiments/
+
 │   ├── exp1_base_dynamics.py
+
 │   ├── exp2_coupling_comparison.py
+
 │   ├── exp3_lambda_sweep.py
+
 │   └── exp4_gts_observable.py
+
 │
 ├── tests/
+
 │   ├── test_tension.py
+
 │   └── test_observables.py
+
 │
 └── README.md
+
+
 🔷 Requirements
+
 Python 3
 numpy
 matplotlib
