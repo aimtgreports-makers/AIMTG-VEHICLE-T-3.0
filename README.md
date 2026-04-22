@@ -45,6 +45,9 @@ VEHICLE-T shifts the paradigm from:
 
 ## 🔷 Why it matters
 
+This framework transforms structural dynamics into a measurable signal, 
+enabling direct comparison across systems.
+
 This framework enables the study of:
 
 - complex systems  
