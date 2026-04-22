@@ -1,4 +1,3 @@
-
 # 🚗 VEHICLE-T 3.0
 
 **A Relational Dynamical System with a Measurable Global Tension Signal**
@@ -43,6 +42,8 @@ This framework enables the study of:
 - structural stability  
 
 under a unified mathematical structure.
+
+---
 
 ---
 
