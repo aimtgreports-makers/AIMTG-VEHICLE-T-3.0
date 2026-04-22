@@ -238,3 +238,9 @@ ORCID: 0009-0009-9047-1036
 Structure precedes equilibrium.
 Compatibility precedes consensus.
 Measurement precedes interpretation.
+
+## 🔷 Reference
+
+VEHICLE-T 3.0 — The Global Tension Signal (GTS)
+
+https://doi.org/10.5281/zenodo.19689647
