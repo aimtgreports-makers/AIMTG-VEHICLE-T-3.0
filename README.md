@@ -153,7 +153,8 @@ python experiments/exp4_gts_observable.py
 
 ![Global Tension Signal](figures/gts_minimal_scientific.png)
 
-*Figure — Global Tension Signal (GTS) over discrete time. The system exhibits a progressive dissipative regime following an initial stabilization phase.*
+Figure 1 — Global Tension Signal (GTS) over discrete time. 
+The normalized tension exhibits an initial stabilization phase followed by a continuous dissipative regime.
 
 🔷 Repository Structure
 vehicle_dynamics_lab/
