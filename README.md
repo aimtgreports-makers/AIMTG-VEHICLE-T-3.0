@@ -1,7 +1,7 @@
 # 🚗 VEHICLE-T 3.0
 
 
-**A Relational Dynamical System with a Measurable Global Tension Signal**
+**A Relational Dynamical System for Measuring Global Structural Tension**
 > A measurable framework for structural tension in complex systems.
 ---
 ## 🔷 Abstract
@@ -14,6 +14,8 @@ This repository provides:
 - the foundation for measurable structural dynamics  
 
 ## 🔷 What is this?
+
+This framework transforms structural dynamics into a measurable signal, enabling direct comparison across systems.
 
 VEHICLE-T 3.0 transforms the VEHICLE framework into a **measurable system**.
 
@@ -63,10 +65,15 @@ X(t) is the system state at time t
 
 🔶 Interpretation
 GTS(0) = 1 → initial condition
+
 0 < GTS(t) < 1 → tension dissipation
+
 GTS(t) → 0 → strong structural relaxation
+
 GTS(t) ≈ 1 → persistence / plateau
+
 GTS(t) > 1 → tension amplification
+
 
 🔶 Key Properties
 Non-negative
@@ -122,6 +129,7 @@ python experiments/exp3_lambda_sweep.py
 Introduction of the primary observable of VEHICLE-T 3.0.
 
 This experiment computes:
+This experiment represents the first instrumental implementation of VEHICLE-T 3.0.
 
 ### 🔹 Core Measurements
 
